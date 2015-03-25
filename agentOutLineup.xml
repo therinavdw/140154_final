@@ -1,0 +1,94 @@
+<html>
+   <lineup>
+      <artist>
+         <name>Jeremey Loops</name>
+         <gig>
+            <day>FRIDAY</day>
+            <time>
+               <starts>12:00</starts>
+               <ends>14:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>Dan Patlansky</name>
+         <gig>
+            <day>FRIDAY</day>
+            <time>
+               <starts>14:00</starts>
+               <ends>16:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>Mi Casa</name>
+         <gig>
+            <day>FRIDAY</day>
+            <time>
+               <starts>16:00</starts>
+               <ends>18:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>Gangs of Ballet</name>
+         <gig>
+            <day>SATURDAY</day>
+            <time>
+               <starts>12:00</starts>
+               <ends>14:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>Matthew Mole</name>
+         <gig>
+            <day>SATURDAY</day>
+            <time>
+               <starts>14:00</starts>
+               <ends>16:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>Prime Circle</name>
+         <gig>
+            <day>SATURDAY</day>
+            <time>
+               <starts>16:00</starts>
+               <ends>18:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>The Narrow</name>
+         <gig>
+            <day>SUNDAY</day>
+            <time>
+               <starts>12:00</starts>
+               <ends>14:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>The Parlotones</name>
+         <gig>
+            <day>SUNDAY</day>
+            <time>
+               <starts>14:00</starts>
+               <ends>16:00</ends>
+            </time>
+         </gig>
+      </artist>
+      <artist>
+         <name>ShortStraw</name>
+         <gig>
+            <day>SUNDAY</day>
+            <time>
+               <starts>16:00</starts>
+               <ends>18:00</ends>
+            </time>
+         </gig>
+      </artist>
+   </lineup>
+</html>

@@ -1,0 +1,23 @@
+.top-profiles tr td img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+          border-radius: 50px;
+}
+
+.top-profiles {
+    width: 1200px;
+    margin: 30px 10px 0px 10px;
+}
+
+.home tr td {
+    width: 40%;
+}
+
+.home img {
+    float:right;
+    padding:10px;
+    background-color: $neutral-color;
+}

@@ -1,0 +1,55 @@
+table tr td { 
+    width: 50%;
+}
+
+table img {
+    width: 634px;
+    height: 400px;
+}
+
+label {
+    display: block;
+    margin: 20px 0px 10px 0px;
+}
+
+input[type=radio] {
+    display: inline;
+    width: 30px;
+}
+input {
+    display: block;
+    margin: 0px 0px 25px 0px;
+    width:400px;
+}
+
+input[type=submit] {
+    width: 250px;
+    display: block;
+    margin: 25px 0px 25px 0px;
+}
+
+.radio-label {
+    display: inline;
+}
+
+
+select {
+    display: block;
+    margin: 0px 0px 25px 0px;
+     width:100px;
+}
+
+.tickets a {
+    float: right;
+    background-color:#99759D;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+      -ms-border-radius: 40px;
+          border-radius: 40px;
+    margin: 10px;
+}
+
+
+

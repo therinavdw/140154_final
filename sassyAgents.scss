@@ -1,0 +1,158 @@
+$font-stack: CenturyGothic, sans-serif;
+
+$neutral-color : #404040;
+$warm-color : #99759D;
+$cold-back : #88B1A9 ;
+$light-back : #A8A8A8;
+$light-grey : #E0E0E0 ;
+
+
+.banner { background : #FFFFFF url(banner.png) top left no-repeat;
+    }
+
+body {
+  font: 100% $font-stack;
+   background: #040404 url(contemporary_china.png) top right repeat;
+    height: 100%;
+
+}
+
+.banner h1 {
+  font: 90px $font-stack;
+  color : $neutral-color;
+  width: 1200px;
+   height: 50px;
+   float: left;
+    padding: 50px;
+   
+}
+
+h2 {
+  font: 28px $font-stack;
+   color : black;
+   font-weight: 200;
+   border-bottom: 1px solid white;
+   padding:10px;
+}
+
+h3 {
+  font: 22px $font-stack;
+  font-weight: 200;
+  color : $neutral-color;
+  
+}
+
+h4 {
+  font: 24px $font-stack;
+  color : $neutral-color;
+  padding: 10px;
+  text-align: center;
+
+}
+
+.table, td{
+    margin: 0px 0px 0px 10px;
+    padding: 10px 10px 10px 10px; 
+} 
+
+.container{
+    height: 400px;
+    width: 1200px;
+}
+
+.navigation { 
+   float:right;
+   height: 100px;
+  margin: 20px;
+}
+
+.navigation-info {
+    float:right;
+   
+}
+
+.navigation a {  
+    text-decoration: none;
+    color: &warm-color;
+    padding: 10px;
+   
+}
+    
+
+
+.navigation a:hover {
+    color: white;
+}
+    
+@mixin round-corners($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+
+.rounded-box-info {
+  @include round-corners(20px);
+  background-color : $light-grey;
+  padding: 50px;
+  width: 1000px;
+  margin: 90px 10px 90px 50px;
+
+}
+
+.profile {
+  @include round-corners(20px);
+  background-color : $light-grey;
+  width: 1000px;
+  margin: 90px 0px 90px 90px;
+
+
+}   
+.profile img {
+    float:right;
+    padding:10px;
+    background-color: $neutral-color;
+    
+}
+
+.profile p {
+    width: 50%;
+}
+
+.profile table {
+  padding: 10px 20px 10px 10px;
+  width: 1000px;
+  
+
+}
+    
+
+.homepage-box {
+    -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  border: 3px solid $cold-back;
+  padding: 50px;
+  margin: 60px;
+  position:absolute;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*# look for round-corners and put it in.(argument varlible) sets value of radius vairible to 10 */
+
+
+/*# do math in sassy 10 devided by 2*/

@@ -1,0 +1,15 @@
+.headingFAQ {
+    @include round-corners(20px);
+    background-color: #99759D;
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+}
+
+.FAQ-box p{
+    width: 1000px;
+    margin: 10px 10px 10px 80px;
+}
+
+.FAQ-box {
+    padding: 30px;
+}

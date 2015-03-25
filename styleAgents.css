@@ -1,0 +1,103 @@
+.banner {
+  background: #FFFFFF url(banner.png) top left no-repeat; }
+
+body {
+  font: 100% CenturyGothic, sans-serif;
+  background: #040404 url(contemporary_china.png) top right repeat;
+  height: 100%; }
+
+.banner h1 {
+  font: 90px CenturyGothic, sans-serif;
+  color: #404040;
+  width: 1200px;
+  height: 50px;
+  float: left;
+  padding: 50px; }
+
+h2 {
+  font: 28px CenturyGothic, sans-serif;
+  color: black;
+  font-weight: 200;
+  border-bottom: 1px solid white;
+  padding: 10px; }
+
+h3 {
+  font: 22px CenturyGothic, sans-serif;
+  font-weight: 200;
+  color: #404040; }
+
+h4 {
+  font: 24px CenturyGothic, sans-serif;
+  color: #404040;
+  padding: 10px;
+  text-align: center; }
+
+.table, td {
+  margin: 0px 0px 0px 10px;
+  padding: 10px 10px 10px 10px; }
+
+.container {
+  height: 400px;
+  width: 1200px; }
+
+.navigation {
+  float: right;
+  height: 100px;
+  margin: 20px; }
+
+.navigation-info {
+  float: right; }
+
+.navigation a {
+  text-decoration: none;
+  color: .navigation a warm-color;
+  padding: 10px; }
+
+.navigation a:hover {
+  color: white; }
+
+.rounded-box-info {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #E0E0E0;
+  padding: 50px;
+  width: 1000px;
+  margin: 90px 10px 90px 50px; }
+
+.profile {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #E0E0E0;
+  width: 1000px;
+  margin: 90px 0px 90px 90px; }
+
+.profile img {
+  float: right;
+  padding: 10px;
+  background-color: #404040; }
+
+.profile p {
+  width: 50%; }
+
+.profile table {
+  padding: 10px 20px 10px 10px;
+  width: 1000px; }
+
+.homepage-box {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  border: 3px solid #88B1A9;
+  padding: 50px;
+  margin: 60px;
+  position: absolute; }
+
+/*# look for round-corners and put it in.(argument varlible) sets value of radius vairible to 10 */
+/*# do math in sassy 10 devided by 2*/
+
+/*# sourceMappingURL=styleAgents.css.map */
